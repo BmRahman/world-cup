@@ -142,6 +142,21 @@ a{
 .message{
     margin-left: 5px;
 }
+.view{
+    text-align: center;
+    margin-top: 60px;
+    display: none;
+}
+.view button{
+    padding: 10px 30px;
+    background: #DD0000;
+    color: #ffff;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;   
+}
 /*blog ends*/
 
 /*footer starts*/
@@ -398,6 +413,9 @@ hr{
 .card-im img{
     width: 100%;
 } 
+.view{
+    display: block;
+}
 .footer{
     padding: 60px 40px;
 }
