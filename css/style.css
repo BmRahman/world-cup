@@ -12,3 +12,58 @@ body{
 a{
     text-decoration: none;
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+/*banner starts*/
+.banner{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 501px;
+    background-color: black;
+    padding: 80px;
+    border-radius: 30px; 
+}
+.banner-in h1{
+    margin-top: 68px;
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #ffff;
+}
+.banner-in p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffff;
+}
+.banner-in a{
+    padding: 10px 20px;
+    background: #DD0000;
+    color: #ffff;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.banner-in img{
+    height: 540px;
+    position: relative;
+    left: 10%;
+    bottom: -8%;
+}
+/*banner ends*/
+
+/*blog starts*/
+.blog{
+    padding: 80px 0px;
+}
+/*blog ends*/
+
