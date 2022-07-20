@@ -53,6 +53,14 @@ a{
     text-transform: capitalize;
     font-weight: 700;
     border-radius: 5px;
+    transition: 1s;
+}
+.banner-in a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.banner span{
+    margin-left: 5px;
 }
 .banner-in img{
     height: 540px;
@@ -84,12 +92,17 @@ a{
     text-transform: capitalize;
     background: #ffff;
     text-align: center;
+    transition: 1s;
 }
 .up, .all{
     margin-bottom: 20px;
 }
 .link a{
     color: black;
+}
+.link:hover{
+    background-color: #DD0000;
+    cursor: pointer;
 }
 .box-2{
     flex-grow: 1;
@@ -128,3 +141,51 @@ a{
 }
 /*blog ends*/
 
+/*footer starts*/
+.footer{
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.foot-in{
+    width: 1300px;
+}
+.foot-in h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #ffff;
+    margin-bottom: 60px;
+}
+hr{
+    border: 1px solid #eeee;
+}
+.foot-in ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.foot-in ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffff;
+}
+.social{
+    text-align: center;
+    padding-top: 60px;
+}
+.social a{
+    font-size: 30px;
+    margin-left: 20px;
+    color: #ffff;
+}
+/*footer ends*/
+
+/*match section*/
+.match{
+    text-align: center;
+    padding: 20px;
+}
