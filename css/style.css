@@ -19,6 +19,7 @@ a{
 .main{
     width: 1300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 /*banner starts*/
@@ -64,6 +65,66 @@ a{
 /*blog starts*/
 .blog{
     padding: 80px 0px;
+} 
+.multi{
+    display: flex;
+}
+.box-1{
+    width: 200px;
+    height: 180px;
+    padding: 30px;
+    background: black;
+    border-radius: 15px;
+}
+.link {
+    padding: 12px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background: #ffff;
+    text-align: center;
+}
+.up, .all{
+    margin-bottom: 20px;
+}
+.link a{
+    color: black;
+}
+.box-2{
+    flex-grow: 1;
+    margin-left: 30px;
+}
+.box-2 .card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 33px;
+    grid-row-gap: 30px;
+}
+.in-card{
+    border: 2px solid #eeee;
+    border-radius: 10px;
+}
+.in-card button{
+    margin-top: 10px;
+    padding: 4px 15px;
+    border-radius: 5px;
+    border: 1px solid black; 
+}
+.in-card h3{
+  margin: 15px 0px;  
+}
+.card-down{
+    padding: 20px;
+}
+.time{
+    margin-left: 5px;
+}
+.comment{
+    margin-left: 20px;
+}
+.message{
+    margin-left: 5px;
 }
 /*blog ends*/
 
